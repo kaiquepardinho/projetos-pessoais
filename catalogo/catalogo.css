@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    text-align: center;
+    background-color: rgb(22, 21, 26);
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+#titulo {
+    padding: 40px;
+    background-color: rgb(23, 23, 26);
+}
+
+#conteiner {
+    margin: 20px;
+}
+
+.itens {
+    display: inline-table;
+     margin: 15px 25px;
+  }
+  
+.itens:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+  }
+  
+.poster{
+    border-radius: 8px;
+    border: solid #2d0470 4px;
+  }
+  
+a{
+    text-decoration: none;
+  }
+  
+p{
+    color: white;
+  }
+  
+.impel{
+    width: 275px;
+    height: 388px;
+  }

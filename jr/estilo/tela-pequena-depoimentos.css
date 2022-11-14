@@ -18,6 +18,7 @@
         background: var(--cor2);
         padding-top: 10px;
         padding-left: 6px;
+        border-bottom: 2px solid var(--cor0);
     }
     
     i#burguer {
@@ -67,7 +68,7 @@
         text-decoration: none;
         padding: 10px;
         margin-left: -6px;
-        border-top: 2px solid var(--cor3);
+        border-top: 2px solid var(--cor0);
     }
     
     menu > ul > li > a:hover {

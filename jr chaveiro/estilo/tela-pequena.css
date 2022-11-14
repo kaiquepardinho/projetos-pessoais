@@ -1,0 +1,217 @@
+
+@media screen and (max-width: 991px) {
+    :root {
+        --cor0: #FF6B00;
+        --cor1: #FFD2A8;
+        --cor2: #000000;
+        --cor3: #FFFFFF;
+    }
+    
+    * {
+        background-color: var(--cor0);
+        font-family: sans-serif;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    header {
+        background: var(--cor2);
+        padding-top: 10px;
+        padding-left: 6px;
+    }
+    
+    i#burguer {
+        background-color: var(--cor2);
+        color: var(--cor3);
+        padding-bottom: 10px;
+    }
+    
+    h1#jrtitulo {
+        background-color: var(--cor2);
+        color: var(--cor3);
+        width: 200px;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+        position: absolute;
+        top: 3.5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    h1#jrtitulo::before{
+        content: 'JR ';
+        color: var(--cor0);
+    }
+    
+    img#jrlogo {
+        height: 45px;
+        width: 45px;
+        position: absolute;
+        top: 3.4%;
+        left: 95%;
+        transform: translate(-50%, -50%);
+    }
+    
+    menu {
+        display: none;
+        list-style-type: none;
+    }
+    
+    menu > ul > li > a {
+        display: block;
+        background-color: var(--cor2);
+        color: var(--cor3);
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 10px;
+        margin-left: -6px;
+        border-top: 2px solid var(--cor3);
+    }
+    
+    menu > ul > li > a:hover {
+        color: var(--cor0);
+    }
+    
+    article#art1 {
+        display: inline-block;
+        height: 245px;
+        width: 100%;
+    }
+    
+    aside#art1fundo {
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        background: url(../img-cel/foto01.png) center center;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+    
+    h2#art1titulo {
+        background: none;
+        font-size: 40px;
+        font-weight: bold;
+        color: var(--cor3);
+        position: relative;
+        top: 50%;
+        transform: translatey(-50%);
+    }
+    
+    p#chave{
+        display: inline-block;
+        background: none;
+        color: var(--cor0);
+        margin-left: -2px;
+        margin-right: -2px;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    section#paginas {
+        text-align: center;
+        background-color: var(--cor0);
+        border-top: 2px solid var(--cor3);
+        margin: auto;
+        height: 242px;
+        width: 100%;
+    }
+    
+    aside.linkspg {
+        display: inline-block;
+        height: 200px;
+        width: 200px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        position: relative;
+        top: 20px;
+    }
+    
+    a.paglinks {
+        display: inline-block;
+        background-size: cover;
+        background-position: center center;
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+    }
+    
+    a#pg1 {
+        background-image: url(../img-cel/ft1.png);
+    }
+    
+    a#pg2 {
+        background-image: url(../img-cel/ft2.png);
+    }
+    
+    p.tpaginas {
+        display: inline-block;
+        background: none;
+        color: var(--cor3);
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    article#art2 {
+        height: 100%;
+        width: 100%;
+    }
+    
+    img#f1 {
+        height: 100%;
+        width: 100%;
+        border-top: 2px solid var(--cor3);
+        border-bottom: 2px solid var(--cor3);
+    }
+    
+    article#contato {
+        padding-top: 120px;
+        padding-bottom: 140px;
+    }
+    
+    article#contato > h3 {
+        padding: 10px;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    article#contato > p {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    article#contato > p > a {
+        background-color: var(--cor2);
+        color: var(--cor3);
+        text-decoration: none;
+        padding: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    article#contato > p > a:hover {
+        background-color: var(--cor0);
+        border: 1px solid var(--cor3);
+    }
+    
+    footer > p {
+        background-color: var(--cor2);
+        color: var(--cor3);
+        text-align: center;
+        padding: 10px;
+        border-top: 2px solid var(--cor3);
+    }
+    
+    section#cont {display: none;}
+    aside#boxright {display: none;}
+    
+}
+

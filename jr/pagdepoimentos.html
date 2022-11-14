@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilo/tela-pequena-depoimentos.css" media="all">
+    <link rel="stylesheet" href="estilo/outros-depoimentos.css">
+    <title>Depoimentos</title>
+</head>
+<body>
+    <header>
+        <h1 id="jrtitulo">Chaveiro</h1>
+        <img src="img-depoimentos/logo01.png" alt="" id="jrlogo">
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+            <menu id="itens">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="pagdepoimentos.html">Depoimentos</a></li>
+                </ul>
+            </menu>
+    </header>
+
+    <h1 id="titulo">Depoimentos</h1>
+
+    <div id="conteiner">
+
+        <div class="slides">
+
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+
+            <div class="box">
+                <img src="img-depoimentos/depoimento1.jpeg" alt="f1">
+            </div>
+            <div class="box">
+                <img src="img-depoimentos/depoimento2.jpeg" alt="f2">
+            </div>
+            <div class="box">
+                <img src="img-depoimentos/depoimento3.jpeg" alt="f3">
+            </div>
+
+        </div>
+        
+        <div class="manual-navigation">
+            <label for="radio1" class="mbtn"></label>
+            <label for="radio2" class="mbtn"></label>
+            <label for="radio3" class="mbtn"></label>
+        </div>
+
+        
+    </div>
+
+    <footer>
+        <p>JR Chaveiro - Atendimento 24 horas</p>
+    </footer>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

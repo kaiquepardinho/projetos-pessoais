@@ -46,10 +46,10 @@
     }
     
     img#jrlogo {
-        height: 45px;
-        width: 45px;
+        height: 40px;
+        width: 40px;
         position: absolute;
-        top: 3.4%;
+        top: 3.5%;
         left: 95%;
         transform: translate(-50%, -50%);
     }
@@ -116,19 +116,19 @@
         background-color: var(--cor0);
         border-top: 2px solid var(--cor3);
         margin: auto;
-        height: 242px;
+        height: 230px;
         width: 100%;
     }
     
     aside.linkspg {
         display: inline-block;
-        height: 200px;
-        width: 200px;
+        height: 180px;
+        width: 180px;
         margin-left: 10px;
         margin-right: 10px;
-        margin-bottom: 20px;
+
         position: relative;
-        top: 20px;
+        top: 25px;
     }
     
     a.paglinks {

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JR Chaveiro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilo/tela-pequena.css" media="all">
+    <link rel="stylesheet" href="estilo/tela-media.css">
+    <link rel="stylesheet" href="estilo/outros.css">
+</head>
+<body>
+    <header>
+        <h1 id="jrtitulo">Chaveiro</h1>
+        <img src="img-cel/logo01.png" alt="" id="jrlogo">
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+            <menu id="itens">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="pagdepoimentos.html">Depoimentos</a></li>
+                </ul>
+            </menu>
+    </header>
+
+    <main>
+        <!--Código para celular-->
+        <article id="art1">
+            <aside id="art1fundo">
+                <h2 id="art1titulo">Faça sua <p id="chave">chave</p> aqui!</h2>
+            </aside>
+        </article>
+        
+        <section id="paginas">
+            <aside class="linkspg">
+                <a href="#" id="pg1" class="paglinks">
+                    <p class="tpaginas">Contato</p>
+                </a>
+            </aside>
+            <aside class="linkspg">
+                <a href="pagdepoimentos.html" id="pg2" class="paglinks">
+                    <p class="tpaginas">Depoimentos</p>
+                </a>
+            </aside>
+        </section>
+
+        <article id="art2">
+                <img src="img-cel/foto02.jpg" alt="f1" id="f1">
+        </article>
+
+        <article id="contato">
+            <h3 class="cta">Entre em contato!</h3>
+            <p><a href="#">Contato</a></p>
+        </article>
+    </main>
+
+        <footer>
+            <p>JR Chaveiro - Atendimento 24 horas</p>
+        </footer>
+
+        <!--Código para outros dispositivos -->
+
+        <section id="cont">
+            <article id="art01">
+                <aside id="boxlogo">
+                    <img src="img-midias/logo01-semfundo.png" alt="" id="logo">
+                </aside>
+                <a href="pagdepoimentos.html" id="linkmenu"><p id="textmenu">Depoimentos</p></a>
+            </article>
+
+            <article id="art02">
+                <h1 id="titulo">Faça sua chave aqui!</h1>
+
+                <p id="txbotao1">
+                    <a href="#" id="linkbotao1">Contato
+                    </a>
+                </p>
+
+                <p id="txbotao2">
+                    <a href="#" id="linkbotao2">Saiba mais
+                    </a>
+                </p>
+
+                <aside id="boxchave">
+                    <img src="img-midias/img1.png" alt="chave" id="chave">
+                </aside>
+            </article>
+        </section>
+
+        <aside id="boxright">
+            <img src="img-midias/img2.png" alt="fundo1" id="fundo1">
+        </aside>
+
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

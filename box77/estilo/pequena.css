@@ -1,0 +1,311 @@
+
+@media screen and (max-width: 800px) {
+    section#cont {display: none;}
+    aside#boxright {display: none;}
+    main#outra01 {display: none;}
+    #superior02 {
+        display: none;
+    }
+
+    :root {
+        --cor0: #1f2221;
+        --cor1: #2bff00;
+        --cor2: #000000;
+        --cor3: #FFFFFF;
+        --cor4: #191b1b;
+    }
+    
+    * {
+        background-color: var(--cor0);
+        font-family: sans-serif;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    header {
+        background: var(--cor0);
+        height: 60px;
+    }
+    
+    i#burguer {
+        background-color: var(--cor0);
+        color: var(--cor1);
+        font-size: 34px;
+    }
+    
+    img#logo {
+        background-color: var(--cor0);
+        height: 40px;
+        width: 138px;
+    }
+    
+    #itens {
+        display: none;
+        list-style-type: none;
+    }
+    
+    #itens > ul > li > a {
+        display: block;
+        background-color: var(--cor0);
+        color: var(--cor3);
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-top: 2px solid var(--cor1);
+    }
+
+    #esp {
+        border-bottom: 2px solid var(--cor1);
+    }
+    
+    #itens > ul > li > a:hover {
+        color: var(--cor1);
+    }
+    
+    article#art1 {
+        display: inline-block;
+        height: 245px;
+        width: 100%;
+    }
+    
+    aside#art1fundo {
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        background: url(../celular/ft1.jpg) center center;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+    
+    h2#art1titulo {
+        background: none;
+        font-size: 35px;
+        font-weight: bold;
+        color: var(--cor1);
+        position: relative;
+        top: 50%;
+        transform: translatey(-50%);
+    }
+    
+    p#carro{
+        display: inline-block;
+        background: none;
+        color: var(--cor1);
+        margin-left: -2px;
+        margin-right: -2px;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    
+    section#paginas {
+        text-align: center;
+        background-color: var(--cor0);
+        border-top: 2px solid var(--cor1);
+        margin: auto;
+        height: 212px;
+        width: 100%;
+    }
+    
+    aside.linkspg {
+        display: inline-block;
+        height: 150px;
+        width: 150px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+        position: relative;
+        top: 30px;
+        
+    }
+    
+    a.paglinks {
+        display: inline-block;
+        background-size: cover;
+        background-position: center center;
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+        
+    }
+
+    a.paglinks:hover {
+        border: 2px solid var(--cor1);
+    }
+
+    a#pg1 {
+        background-image: url(../celular/ft2.jpg);
+    }
+    
+    a#pg2 {
+        background-image: url(../celular/ft3.jpg);
+    }
+    
+    p.tpaginas {
+        display: inline-block;
+        background: none;
+        color: var(--cor3);
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    article#art2 {
+        height: 100%;
+        width: 100%;
+    }
+    
+    img#f1 {
+        height: 100%;
+        width: 100%;
+        border-top: 2px solid var(--cor1);
+        border-bottom: 2px solid var(--cor1);
+    }
+    
+    article#contato {
+        padding-top: 120px;
+        padding-bottom: 140px;
+        background-color: var(--cor0);
+    }
+    
+    article#contato > h3 {
+        padding: 10px;
+        text-align: center;
+        font-size: 18px;
+        color: var(--cor1);
+        background-color: var(--cor0);
+    }
+    
+    article#contato > p {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        background-color: var(--cor0);
+    }
+    
+    article#contato > p > a {
+        background-color: var(--cor2);
+        color: var(--cor3);
+        text-decoration: none;
+        padding: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+    
+    article#contato > p > a:hover {
+        background-color: var(--cor0);
+        border: 2px solid var(--cor1);
+    }
+    
+    footer > p {
+        background-color: var(--cor2);
+        color: var(--cor3);
+        text-align: center;
+        padding: 10px;
+        border-top: 2px solid var(--cor1);
+    }
+    
+    section#cont {display: none;}
+    aside#boxright {display: none;}
+    
+}
+
+@media screen and (max-width: 800px) and (min-width: 701px){
+
+    #itens2 {
+        display: none;
+        margin: 0px;
+    }
+    
+    section#paginas {
+        text-align: center;
+        background-color: var(--cor0);
+        border-top: 2px solid var(--cor1);
+        margin: auto;
+        height: 332px;
+        width: 100%;
+    }
+    
+    aside.linkspg {
+        display: inline-block;
+        height: 250px;
+        width: 250px;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 40px;
+        position: relative;
+        top: 40px;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width: 601px){
+
+    #itens2 {
+        display: none;
+        margin: 0px;
+    }
+    
+    section#paginas {
+        text-align: center;
+        background-color: var(--cor0);
+        border-top: 2px solid var(--cor1);
+        margin: auto;
+        height: 312px;
+        width: 100%;
+    }
+    
+    aside.linkspg {
+        display: inline-block;
+        height: 230px;
+        width: 230px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+        position: relative;
+        top: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 501px){
+    #itens2 {
+        display: none;
+        margin: 0px;
+    }
+    
+    section#paginas {
+        text-align: center;
+        background-color: var(--cor0);
+        border-top: 2px solid var(--cor1);
+        margin: auto;
+        height: 282px;
+        width: 100%;
+    }
+    
+    aside.linkspg {
+        display: inline-block;
+        height: 210px;
+        width: 210px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 40px;
+        position: relative;
+        top: 40px;
+    }
+}
+
+/*@media screen (max-width: 400px){
+    h1#titulo {
+        background-color: var(--cor2);
+        color: var(--cor3);
+        font-family: sans-serif;
+        font-size: 10px;
+    }
+}*/
+
+

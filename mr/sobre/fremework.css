@@ -1,0 +1,150 @@
+html, body {
+    height: 100%;
+}
+
+.text00 {
+    color: var(--cor0);
+}
+
+.text01 {
+    color: var(--cor1);
+}
+
+.text02 {
+    color: var(--cor2);
+}
+
+.cor00 {
+    background-color: var(--cor0);
+}
+
+.cor01 {
+    background-color: var(--cor1);
+}
+
+.cor02 {
+    background-color: var(--cor2);
+}
+
+.h100 {
+    height: 100%;
+}
+
+.h33 {
+	height: 33.33333333%;
+}
+
+.w30 {
+	width: 30%;
+}
+
+.w33 {
+	width: 33.3%;
+}
+
+.w40 {
+	width: 40%;
+}
+
+.w50 {
+	width: 50%;
+}
+
+.w60 {
+	width: 60%;
+}
+
+.w70 {
+	width: 70%;
+}
+
+.w100 {
+	width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-header{
+	display: flex;
+    max-width: 960px;
+	padding: 0 2%;
+	margin: auto;
+    flex-wrap: wrap;
+}
+
+.posi-y {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.posi-x {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.posi-all {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.marg-top {
+    margin-left: 0px;
+}
+
+.marg-bottom {
+    margin-left: 0px;
+}
+
+.marg-left {
+    margin-left: 40px;
+}
+
+.marg-right {
+    margin-left: 0px;
+}
+
+.padd-top {
+    margin-left: 0px;
+}
+
+.padd-bottom {
+    margin-left: 0px;
+}
+
+.padd-left {
+    margin-left: 0px;
+}
+
+.padd-right {
+    margin-left: 0px;
+}
+
+.left{
+	text-align: left;
+}
+
+.right{
+	text-align: right;
+}
+
+.center{
+	text-align: center;
+}
+
+.order1{
+	order: 1;
+}
+
+.order2{
+	order: 2;
+}
+
+.order3{
+	order: 3;
+}

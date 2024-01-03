@@ -1,0 +1,185 @@
+html, body {
+    height: 100%;
+}
+
+.text00 {
+    color: var(--cor0);
+}
+
+.text01 {
+    color: var(--cor1);
+}
+
+.text02 {
+    color: var(--cor2);
+}
+
+.cor00 {
+    background-color: var(--cor0);
+}
+
+.cor01 {
+    background-color: var(--cor1);
+}
+
+.cor02 {
+    background-color: var(--cor2);
+}
+
+.h100 {
+    height: 100%;
+}
+
+.h50 {
+    height: 50%;
+}
+
+.h40 {
+    height: 40%;
+}
+
+.h33 {
+	height: 33.33333333%;
+}
+
+.h35 {
+	height: 35%;
+}
+
+.w30 {
+	width: 30%;
+}
+
+.w20 {
+	width: 20%;
+}
+
+.w80 {
+	width: 80%;
+}
+
+.w33 {
+	width: 33.3%;
+}
+
+.w40 {
+	width: 40%;
+}
+
+.w45{
+	width: 45%;
+}
+
+.w50 {
+	width: 50%;
+}
+
+.w55 {
+	width: 55%;
+}
+
+.w60 {
+	width: 60%;
+}
+
+.w70 {
+	width: 70%;
+}
+
+.w75 {
+	width: 75%;
+}
+
+.w100 {
+	width: 100%;
+}
+
+.flex {
+    display: flex;
+    padding: 0 2%;
+	margin: auto;
+    flex-wrap: wrap;
+}
+
+.flex-header{
+	display: flex;
+    max-width: 960px;
+	padding: 0 2%;
+	margin: auto;
+    flex-wrap: wrap;
+}
+
+.posi-y {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.posi-x {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.posi-all {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.marg-top {
+    margin-top: 90px;
+}
+
+.marg-bottom {
+    margin-bottom: 0px;
+}
+
+.marg-left {
+    margin-left: 40px;
+}
+
+.marg-right {
+    margin-right: 0px;
+}
+
+.padd-top {
+    padding-top: 0px;
+}
+
+.padd-bottom {
+    padding-bottom: 0px;
+}
+
+.padd-left {
+    padding-left: 0px;
+}
+
+.padd-right {
+    padding-right: 0px;
+}
+
+.left{
+	text-align: left;
+}
+
+.right{
+	text-align: right;
+}
+
+.center{
+	text-align: center;
+}
+
+.order1{
+	order: 1;
+}
+
+.order2{
+	order: 2;
+}
+
+.order3{
+	order: 3;
+}

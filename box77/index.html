@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilo/pequena.css" media="all">
+    <link rel="stylesheet" href="estilo/outros.css">
+    <link rel="stylesheet" href="estilo/style.css" media="all">
+    <link rel="shortcut icon" href="celular/favicon.ico" type="image/x-icon">
+    
+</head>
+<body>
+
+    <header class="flex w100">
+        <div class=" order1 left w33 h100 ">
+            <i id="burguer" class="material-icons posi-y" onclick="clickMenu()">menu</i>
+        </div>
+        <div class="order2 center w33 h100 ">
+            <img src="celular/logo01.png" alt="" id="logo" class="posi-y">
+        </div>
+    </header>
+
+    <div id="superior01">
+        <menu id="itens">
+            <ul class="center">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre/pgsobre.html">Sobre</a></li>
+                <li><a href="#" id="esp">Contato</a></li>
+        </menu>
+    </div>
+
+    <div id="superior02">
+        <menu id="itens2">
+            <ul class="center">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre/pgsobre.html">Sobre</a></li>
+                <li><a href="#" id="esp">Contato</a></li>
+                <li><span id="esp2"></span></li>
+            </ul>
+        </menu>
+    </div>
+
+    <main>
+        <!--Código para celular-->
+        <article id="art1">
+            <aside id="art1fundo">
+                <h2 id="art1titulo">Lorem ipsum dolor sit amet consectetur?</h2>
+            </aside>
+        </article>
+        
+        <section id="paginas">
+            <aside class="linkspg">
+                <a href="#" id="pg1" class="paglinks">
+                    <p class="tpaginas">Contato</p>
+                </a>
+            </aside>
+
+            <aside class="linkspg">
+                <a href="sobre/pgsobre.html" id="pg2" class="paglinks">
+                    <p class="tpaginas">Informações</p>
+                </a>
+            </aside>
+        </section>
+
+        <article id="art2">
+                <img src="celular/ft4.jpg" alt="f1" id="f1">
+        </article>
+
+        <article id="contato">
+            <h3 class="cta">Entre em contato!</h3>
+            <p><a href="#">Contato</a></p>
+        </article>
+    </main>
+
+    <footer>
+        <p>Lorem ipsum dolor.</p>
+    </footer>
+
+        <!--Código para outros dispositivos -->
+
+    <main id="outra01" class="w55 h100">
+        <section id="cont" class="flex h100 w100">
+            <div id="art01" class="order1 left w80 h100">
+                <aside id="boxlogo" class="w100 h35">
+                    <img src="outros/ft1.png" alt="" id="logo2" class="marg-left">
+                </aside>
+
+                <h1 id="titulo2">Lorem ipsum dolor sit, amet!</h1>
+
+                <p id="txbotao1">
+                    <a href="#" id="linkbotao1">Contato
+                    </a>
+                </p>
+
+                <p id="txbotao2">
+                    <a href="sobre/pgsobre.html" id="linkbotao2">Saiba mais
+                    </a>
+                </p>   
+            </div>
+
+            <div id="art02" class="order2 right w20 flex">
+
+                <div id="div001" class="order1 w100 h50"> 
+                    <i id="burguer2" class="material-icons w100 posi-x center marg-top" onclick="clickMenu2()">menu</i>
+                </div>
+
+                <div id="div002" class="order2 w100 h50">
+                    <img src="outros/ft2.png" alt="flor" id="flor-img" class="posi-x">
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <aside id="boxright" class="w45">
+        <img src="outros/ft2.jpg" alt="fundo1" id="fundo1">
+    </aside>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+
+        function clickMenu2() {
+            let btnlink01 = document.querySelector('#txbotao1')
+            let btnlink02 = document.querySelector('#txbotao2')
+            let tit002 = document.querySelector('#titulo2')
+            let box77 = document.querySelector('#logo2')
+            if (itens2.style.display == 'block') {
+                btnlink01.style.display = 'block'
+                btnlink02.style.display = 'block'
+                tit002.style.color = '#2bff00'
+                tit002.style.left = '0px'
+                tit002.style.width = '300px'
+                box77.style.display = 'block'
+                itens2.style.display = 'none'
+            } else {
+                btnlink01.style.display = 'none'
+                btnlink02.style.display = 'none'
+                btnlink02.style.display = 'none'
+                tit002.style.color = '#1f2221'
+                tit002.style.left = '200px'
+                tit002.style.width = '100px'
+                box77.style.display = 'none'
+                itens2.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

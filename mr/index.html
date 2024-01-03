@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MR Automotivo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilo/pequena.css" media="all">
+    <link rel="stylesheet" href="estilo/outros.css">
+    <link rel="stylesheet" href="estilo/style.css" media="all">
+    <link rel="shortcut icon" href="celular/favicon.ico" type="image/x-icon">
+    
+</head>
+<body>
+
+    <header class="flex w100">
+        <div class=" order1 left w33 h100 cor02">
+            <i id="burguer" class="material-icons posi-y" onclick="clickMenu()">menu</i>
+        </div>
+        <div class="order2 center w33 h100 cor02">
+            <h1 id="titulo" class="posi-all"><p id="cor-mr">MR</p> Automotivo</h1>
+        </div>
+        <div class="order3 right w33 h100 cor02">
+            <img src="celular/logo01.png" alt="" id="logo" class="posi-y">
+        </div>   
+    </header>
+
+    <div id="superior01">
+        <menu id="itens">
+            <ul class="center">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre/pgsobre.html">Sobre</a></li>
+                <li><a href="https://wa.me/message/Q7P6VX5EL46TH1" id="esp">Contato</a></li>
+        </menu>
+    </div>
+
+    <div id="superior02">
+        <menu id="itens2">
+            <ul class="center">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre/pgsobre.html">Sobre</a></li>
+                <li><a href="https://wa.me/message/Q7P6VX5EL46TH1" id="esp">Contato</a></li>
+                <li><span id="esp2"></span></li>
+            </ul>
+        </menu>
+    </div>
+
+    <main>
+        <!--Código para celular-->
+        <article id="art1">
+            <aside id="art1fundo">
+                <h2 id="art1titulo">Conserte o seu <p id="carro">carro</p> aqui!</h2>
+            </aside>
+        </article>
+        
+        <section id="paginas">
+            <aside class="linkspg">
+                <a href="https://wa.me/message/Q7P6VX5EL46TH1" id="pg1" class="paglinks">
+                    <p class="tpaginas">Contato</p>
+                </a>
+            </aside>
+
+            <aside class="linkspg">
+                <a href="sobre/pgsobre.html" id="pg2" class="paglinks">
+                    <p class="tpaginas">Informações</p>
+                </a>
+            </aside>
+        </section>
+
+        <article id="art2">
+                <img src="celular/ft4.png" alt="f1" id="f1">
+        </article>
+
+        <article id="contato">
+            <h3 class="cta">Entre em contato!</h3>
+            <p><a href="https://wa.me/message/Q7P6VX5EL46TH1">Contato</a></p>
+        </article>
+    </main>
+
+    <footer>
+        <p>Oficina Mecânica</p>
+    </footer>
+
+        <!--Código para outros dispositivos -->
+
+    <main id="outra01" class="w55 h100">
+        <section id="cont" class="flex h100 w100">
+            <div id="art01" class="order1 left w80 h100">
+                <aside id="boxlogo" class="w100 h35">
+                    <img src="outros/ft1.png" alt="" id="logo2" class="marg-left">
+                </aside>
+
+                <h1 id="titulo2">Conserte o seu carro aqui!</h1>
+
+                <p id="txbotao1">
+                    <a href="https://wa.me/message/Q7P6VX5EL46TH1" id="linkbotao1">Contato
+                    </a>
+                </p>
+
+                <p id="txbotao2">
+                    <a href="sobre/pgsobre.html" id="linkbotao2">Saiba mais
+                    </a>
+                </p>   
+            </div>
+
+            <div id="art02" class="order2 right w20 flex">
+
+                <div id="div001" class="order1 w100 h50"> 
+                    <i id="burguer2" class="material-icons w100 posi-x center marg-top" onclick="clickMenu2()">menu</i>
+                </div>
+
+                <div id="div002" class="order2 w100 h50">
+                    <img src="outros/ft2.png" alt="carro" id="carro-img" class="posi-x">
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <aside id="boxright" class="w45">
+        <img src="outros/ft3.png" alt="fundo1" id="fundo1">
+    </aside>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+
+        function clickMenu2() {
+            let btnlink01 = document.querySelector('#txbotao1')
+            let btnlink02 = document.querySelector('#txbotao2')
+            if (itens2.style.display == 'block') {
+                btnlink01.style.display = 'block'
+                btnlink02.style.display = 'block'
+                itens2.style.display = 'none'
+            } else {
+                btnlink01.style.display = 'none'
+                btnlink02.style.display = 'none'
+                itens2.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

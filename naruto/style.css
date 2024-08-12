@@ -17,7 +17,7 @@
 }
 
 body {
-    background: url('ftex/') center center no-repeat fixed;
+    background: url('ftex/image.png') center center no-repeat fixed;
     background-size: cover;
 }
 
@@ -40,7 +40,7 @@ body {
 
 #divbox0 {
     margin-top: 100%;
-    background: url('ftex/fondo-menu-principal-entero-9edc75-removebg-preview.png') center top no-repeat fixed;
+    background: url('ftex/fundo.png') center top no-repeat fixed;
     background-size: cover;
     display: flex;
     height: 76px;
@@ -50,7 +50,7 @@ body {
 
 #divbox1 {
     margin-top: 110%;
-    background: url('ftex/fondo-menu-principal-entero-9edc75-removebg-preview.png') center top no-repeat fixed;
+    background: url('ftex/fundo.png') center top no-repeat fixed;
     background-size: cover;
     display: flex;
     height: 900px;
@@ -129,7 +129,7 @@ h1 {
 
     #divbox0 {
         margin-top: 120%;
-        background: url('ftex/fondo-menu-principal-entero-9edc75-removebg-preview.png') center top no-repeat fixed;
+        background: url('ftex/fundo.png') center top no-repeat fixed;
         background-size: cover;
         display: flex;
         height: 48px;
@@ -139,7 +139,7 @@ h1 {
     
     #divbox1 {
         margin-top: 140%;
-        background: url('ftex/fondo-menu-principal-entero-9edc75-removebg-preview.png') center top no-repeat fixed;
+        background: url('ftex/fundo.png') center top no-repeat fixed;
         background-size: cover;
         display: flex;
         height: 495px;

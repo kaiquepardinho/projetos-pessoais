@@ -43,13 +43,13 @@ function carregar() {
     ];
 
     const frases = [
-        'Você foi um dos meus momentos que queria fossem pra sempre.',
-        'Você foi um dos meus momentos que queria fossem pra sempre.',
-        'Você foi um dos meus momentos que queria fossem pra sempre.',
-        'Você foi um dos meus momentos que queria fossem pra sempre.',
-        'Você foi um dos meus momentos que queria fossem pra sempre.',
-       'Você foi um dos meus momentos que queria fossem pra sempre.',
-        'Você foi um dos meus momentos que queria fossem pra sempre.'
+        'Você foi os meus melhores momentos que queria fossem pra sempre.',
+        'Você foi os meus melhores momentos que queria fossem pra sempre.',
+        'Você foi os meus melhores momentos que queria fossem pra sempre.',
+        'Você foi os meus melhores momentos que queria fossem pra sempre.',
+        'Você foi os meus melhores momentos que queria fossem pra sempre.',
+       'Você foi os meus melhores momentos que queria fossem pra sempre.',
+        'Você foi os meus melhores momentos que queria fossem pra sempre.'
     ];
 
     const indice = (dia + mes + ano) % gifs.length;
